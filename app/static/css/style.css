@@ -1,0 +1,23 @@
+#my_btn{
+    width: 250px;
+    height: 90px;
+    background-color: brown;
+    margin-top: 1cm;
+}
+.col1{
+    
+
+    width: 350px;
+    margin-top: 3cm;
+    margin-left: 3cm;
+    
+}
+.col2{
+    position: absolute;
+    top: 1cm;
+    width: 350px;
+    margin-left: 20cm;
+}
+.col12{
+    margin-top: 1cm;
+}

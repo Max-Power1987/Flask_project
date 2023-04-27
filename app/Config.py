@@ -1,0 +1,4 @@
+API_id = '26879719'
+API_hash = 'e0fd576f80e6729a5770c206bd70288a' 
+Token = '5426000517:AAGkBHiKBIK9YrLm_yXId9R8a962bEfy3AY'
+Phone_number = '+79080265374'

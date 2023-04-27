@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<form action=" " method="post">
+    <div class="col1">
+        <div class="col11">
+            <h5>Если знаешь только Name User</h5>
+            {{ form.name_user(size=25, required=False) }} 
+        </div>
+        <div class="col12">
+            <h5 >Если знаешь только телефон</h5>
+            {{ form.phone(size=25) }}
+        </div>
+    </div>
+    <div class="col2">
+        <h5>Текст сообщения</h5>
+        {{ form.text_data (rows='10', cols='50')}}
+        {{ form.my_btn }}
+    </div>
+</form>
+
+{% endblock %}
